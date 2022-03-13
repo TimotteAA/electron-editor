@@ -1,0 +1,42 @@
+.icon {
+  font-size: 20px;
+}
+.left {
+  min-height: 100vh;
+  position: relative;
+}
+
+.btns {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.btn-left-bottom {
+  width: 100%;
+}
+
+.start-page {
+  font-size: 30px;
+  height: 300px;
+  line-height: 300px;
+  color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#simplemde-editor-2-wrapper {
+  max-height: 1020px;
+  overflow: scroll;
+}
+
+.file-title {
+  cursor: pointer;
+}
+
+.CodeMirror-scroll {
+  min-height: 500px !important;
+  max-height: 500px !important;
+}
